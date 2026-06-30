@@ -6,11 +6,6 @@
 - Driver Drowsiness Detection
 - Yawning Detection
 - Engine Temperature Monitoring
-- Gas Leak Detection
-- Alcohol Detection
-- Rain Detection
-- Obstacle Detection (Ultrasonic Sensor)
-- Seat Belt Detection
 - Multilingual Voice Alerts (English, Hindi & Tamil)
 - Real-Time Blynk Dashboard
 - ESP32 Wi-Fi Communication
@@ -48,12 +43,7 @@
 
 - ESP32 Development Board
 - USB Camera
-- MQ Gas Sensor
-- MQ Alcohol Sensor
 - Temperature Sensor
-- Rain Sensor
-- Ultrasonic Sensor (HC-SR04)
-- Seat Belt Switch
 - Buzzer
 - Jumper Wires
 - Breadboard
@@ -99,11 +89,7 @@ project/
 | Driver Drowsiness | AI Vision |
 | Yawning | AI Vision |
 | Engine Overheating | Temperature Sensor |
-| Gas Leak | MQ Gas Sensor |
-| Alcohol Detection | MQ Alcohol Sensor |
-| Rain | Rain Sensor |
-| Obstacle | Ultrasonic Sensor |
-| Seat Belt | Switch Sensor |
+
 
 ---
 
@@ -112,6 +98,9 @@ project/
 - English
 - Hindi
 - Tamil
+- Spanish
+- German
+- French
 
 Voice alerts automatically change based on the selected language.
 
@@ -119,9 +108,7 @@ Voice alerts automatically change based on the selected language.
 
 ## Dashboard
 
-The Blynk IoT dashboard displays:
 
-- Live Sensor Values
 - Driver Status
 - Fault Status
 - Alerts
